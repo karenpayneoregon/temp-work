@@ -1,5 +1,7 @@
 ﻿# About
 
+![Power Shell](assets/powerShell.png)
+
 This project shows a menu of all databases under `.\SQLEXPRESS` which when selecting a database if any table has one or more columns with descriptions displays them. If desired, place the server name in a configue file e.g. `appsettings.json`.
 
 This is meant to be a developer tool which is why I didn't use a configuration file as most developers are using one server. If you want to have a dynamic setting for a server there are two choices
