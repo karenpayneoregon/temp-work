@@ -24,9 +24,7 @@
 	<ItemGroup>
 		<PackageReference Include="Spectre.Console" Version="0.44.0" />
 	</ItemGroup>
-	<ItemGroup>
-	  <ProjectReference Include="..\DbLibrary\DbLibrary.csproj" />
-	</ItemGroup>
+
 	<ItemGroup>
 	  <Folder Include="assets\" />
 	</ItemGroup>
