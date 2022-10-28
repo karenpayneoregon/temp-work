@@ -5,6 +5,7 @@ This project shows a menu of all databases under `.\SQLEXPRESS` which when selec
 This is meant to be a developer tool which is why I didn't use a configuration file as most developers are using one server. If you want to have a dynamic setting for a server there are two choices
 
 - Create an appsetting.json file but remember as a tool you need to traverse to the folder `C:\Users\WindowLoginName\.dotnet\tools`
+    - For some ideas how to implement see [the following code](https://github.com/karenpayneoregon/temp-work/blob/master/SqlServerColumnDescriptions/Classes/ServerConfiguration.cs).
 - Setup a parameter e.g.
 
 ```csharp
